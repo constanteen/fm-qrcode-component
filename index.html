@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+    .body_bg {
+      background-color: hsl(212, 45%, 89%);
+    }
+    .card {
+      min-width: 20rem;
+    }
+    .sub-text {
+      color: hsl(220, 15%, 55%);
+    }
+    .header {
+      color: hsl(218, 44%, 22%);
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="body_bg">
+  <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white w-1/4 rounded-2xl overflow-auto card">
+    <div class="p-3.5">
+      <div>
+        <img src="./assets/images/image-qr-code.png" class="rounded-2xl" />
+      </div>
+      <div class="p-4 my-2">
+        <p class="header font-bold text-center text-xl mb-4">Improve your front-end skills by building projects</p>
+        <p class="sub-text text-center text-sm">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Chilo Nwokolo</a>.
+  </div>
+</body>
+
+</html>
